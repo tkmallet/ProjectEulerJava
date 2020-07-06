@@ -5,7 +5,6 @@ What is the smallest positive number that is evenly divisible by all of the numb
 */
 
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
