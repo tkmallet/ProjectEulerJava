@@ -6,7 +6,6 @@ Find the thirteen adjacent digits in the 1000-digit number
 that have the greatest product. What is the value of this product?
 */
 
-#include<iostream>
 #include <stdio.h>
 #include <inttypes.h>
 #include <vector>
@@ -57,5 +56,5 @@ int main()
 			vect.erase(vect.begin());
 		product = 1;
 	}
-	cout << "largest = " << largestProduct;
+	printf("largest = %llu", largestProduct);
 }
