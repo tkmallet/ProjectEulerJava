@@ -50,7 +50,7 @@ int main()
 
 size_t checkMultiples(int(&table)[20][20])
 {
-	size_t h{}, v{}, fd{}, bd{}, largest{};
+	size_t h{}, v{}, fd{}, bd{}, largest{};//fd, bd, front and back diagonal
 	for (int i = 0; i <= 16; i++)
 	{
 		for (int j = 0; j <= 16; j++)
